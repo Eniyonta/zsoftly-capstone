@@ -16,12 +16,31 @@ Terraform-based AWS infrastructure deploying:
 ## Deployment
 
 1. Build and push Docker image to ECR
-2. Run terraform init / plan / apply
+2. Run terraform init/plan/apply
 
 ## Validation
 
 Access the app via:
 - /page1
 - /page2
+
+## Screenshots
+
+### Terraform Apply
+![Terraform Apply](screenshots/terraform-apply.png)
+
+### ECS Cluster
+![ECS Cluster](screenshots/ecs-cluster.png)
+
+### ECS Service Running
+![ECS Service](screenshots/ecs-service.png)
+
+### Application Load Balancer
+![Application Load Balancer](screenshots/alb.png)
+
+### Application Pages
+![Page 1](screenshots/page1.png)
+![Page 2](screenshots/page2.png)
+
  
  
