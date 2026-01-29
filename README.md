@@ -11,34 +11,27 @@ Terraform-based AWS infrastructure deploying:
 - Route 53
 - ECR
 - Terraform (raw resources)
-- Dockerized web app
+- Dockerized web application
 
 ## Deployment
 
-1. Build and push Docker image to ECR
-2. Run terraform init/plan/apply
+1. Build and push the Docker image to Amazon ECR
+2. Run `terraform init`, `terraform plan`, and `terraform apply`
 
 ## Validation
 
-The application is accessible via:
-- /page1
-- /page2
+The deployed application was validated successfully and is accessible via:
+- `/page1`
+- `/page2`
 
 ## Screenshots
 
-### Terraform Apply
-![Terraform Apply](screenshots/terraform-apply.png)
+Validation screenshots have been captured to demonstrate:
+- Successful Terraform apply
+- ECS cluster and service running
+- Application Load Balancer configuration
+- Application pages responding correctly
 
-### ECS Cluster
-![ECS Cluster](screenshots/ecs-cluster.png)
+Screenshots are available in the `screenshots/` directory of this repository.
 
-### ECS Service Running
-![ECS Service](screenshots/ecs-service.png)
-
-### Application Load Balancer
-![Application Load Balancer](screenshots/alb.png)
-
-### Application Pages
-![Page 1](screenshots/page1.png)
-![Page 2](screenshots/page2.png)
 
